@@ -52,7 +52,7 @@ body
 }
 
 footer {
-    margin: 40px auto 20px auto;
+    margin: 30px auto 20px auto;
     text-align: center;
 }
 footer a img {
@@ -72,7 +72,7 @@ footer a img:hover {
 .certificates img {
     width: 100%;
     border: 1px solid #b5b5b5;
-    margin-bottom: 20px;
+    margin: 10px 0 10px 0;
 }
 .achievements h4 {
     color: #559be8;
@@ -98,6 +98,12 @@ footer a img:hover {
     overflow: auto;
     width: 100%;
 }
+.skills ul{
+    padding: 0;
+}
+.skills ul ul {
+    padding-left: 15px;
+}
 .skills ul li {
         font-size: 1.4em;
         font-weight:bold;
@@ -109,13 +115,13 @@ footer a img:hover {
         text-transform: capitalize;
     }
 .skills ul li ul li {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight:bold;
     margin: 0;
     text-align:left;
 }
 .skills ul li ul li ul li {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight:bold;
     margin: 0;
     text-align:left;
@@ -202,355 +208,108 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+/* media queiries */
+
 /* small mobile */
 @media only screen and (max-width: 375px) {
-     .index .ava {
-        margin: 0 auto;
-    }
-
-    .index .ava img {
-        width: 30%;
+    /* index  */
+    .index .ava {
+        width: 40%;
         display: block;
         margin: 10px auto 0 auto;
     }
-
     .index .name {
-        font-size: 2em;
+        font-size: 1.6em;
         font-weight:bold;
         color:#424242;
         margin:15px 0;
         text-align:center;
     }
-
-    .index .message {
-        width: 100%;
-        font-size:0.8em;
-        color:#5c5c5c;
-        text-align:justify;
-        margin: 10px auto 10px auto;
-        padding: 0 15px;
-    }
-
-    .index .separator {
-        width: 100%;
-        margin: 0 auto;
-        height: 22px;
-        padding: 0 15px;
-    }
-
-    .index .separator.left-box {
-        width: 37%;
-        float: left;
-        padding: 0;
-    }
-
-    .index .separator.right-box {
-        width: 37%;
-        float: right;
-        padding: 0;
-    }
-
-    .index .separator.center-box {
-        width: 26%; 
-        margin: 0 auto;
-        text-align: center;
-        font-size: 0.8em;
-        font-weight: bold;
-        color: #4b4b4b;
-    }
-
-    .index .separator.center-end-box {
-        width: 26%; 
-        margin: 0 auto;
-        text-align: center;
-        font-size: 0.7em;
-        margin: 10px auto;
-        color: #4b4b4b;
-        font-weight: bold;
-    }
-     
-    .index .separator.line {
-        width: 100%;
-        height: 50%;
-        border-bottom: 1px dashed #b5b5b5;
-    }
-   
     .index nav {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 15px;
-        margin-top: 10px;
+        padding: 0 10px;
+        margin: 10px auto;
     }
-
+    .index .separator {
+        width: 100%;
+        border-top: 1px solid #fff200;
+        margin-bottom: 15px;
+    }
     .index nav section {
         width: 100%;
+        height: 100%;
         float: left;
-        display: inline-flex;
-		padding-right: 10px;
+        display:inline-block;
+		padding-right:10px;
         margin-bottom:10px;
     }
-
-    .index nav section ul {
-        margin:0;
-        list-style-type:none;
-        padding-left:5px;
+    
+    /* about */
+    .achievements img {
+        width: 25px;
+        float: left;
+        margin-top: 3px;
+    }
+    .achievements ul {
+        padding-left: 5px;
+    }
+    .contacts p {
+        font-size: 1.6em;
+        padding: 0;
+        margin: 0;
     }
 
-    .index nav ul li:first-child {
-        font-size: 1em;
-        color: #198d28;
-        margin-bottom: 4px;
+    /* skills tree */
+    .skills .marks p {
+        font-size: 1.0em;
+        margin: 0;
         font-weight: bold;
-        text-transform: uppercase;
+        display: block;
+        background: #b6ff00;
+        width: 25px;
+        height: 25px;
+        float: left;
+        margin: 0 10px 3px 0;
+        text-align: center;
+        padding: 3px 0 0 0;
+        border-radius: 50px;
+        color: #ffffff;
+    }
+    
+    /* articles formatting */
+    .important {
+        /border-bottom: 1px dashed #02bb00;
+        background: #fffbad;
+        /color: #b10000;
+        /font-weight: bolder;
+        margin: 10px 15px;
+        padding: 10px;
+        border-left: 3px solid #f85b00;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 
-    .index nav ul li {
-        margin-bottom:3px;
-    }
-
-    .index nav a {   
-        font-size: 1em;
-		text-transform: uppercase;
-        color: #4b4b4b;
-        text-decoration: none;
-    }
-
-    .index nav a:hover {
-        color:#ff0000;
-        font-weight:bold;
-        transition: color 0.3s;
-        transition-timing-function:ease-in-out;
-    }
-
-    /* shared */  
-
-    .about article {
+    /* General */
+     main {
         width: 100%;
         font-size: 0.8em;
         color: #5c5c5c;
         text-align: justify;
-        margin: 10px auto 10px auto;
-        padding: 0 15px;
+        margin: 10px auto 0 auto;
+        padding: 0 10px;
+        /background: #adadad;
     }
 
-    .about h1 {
-        font-size: 4em;
-        font-weight:bold;
-        color:#424242;
-        margin:15px 0;
-        text-align:left;
+    h1 { font-size: 2.5em; border-bottom: 2px solid #fff200; }
+    h2 { font-size: 2.1em; border-bottom: 1px solid #fff200;}
+    h3 { font-size: 1.8em } h4 { font-size: 1.5em; margin-bottom: 0px; }
+    h5 { font-size: 1.2em; } h6 { font-size:0.9em }
+
+    p {
+        margin: 5px 0 15px 0;
+        font-size: 1.0em;
     }
-
-    .about h2 {
-        font-size: 2em;
-        font-weight:bold;
-        color:#424242;
-        margin:15px 0;
-        text-align:left;
-    }
-
-    .about footer {
-        margin: 20px auto;
-        text-align: center;
-    }
-
-    .about footer a img {
-        width: 70px;
-        height: auto;
-        opacity: 0.4;
-        
-    }
-
-    .about footer a img:hover {
-        height: auto;
-        opacity: 1;
-        transition: opacity 0.5s;
-        
-    }
-
-    /* intro  */
-    .intro p span {
-        font-weight: bold;
-        font-size: 0.8em;
-        color: #198d28;
-    }
-
-    .intro .interest img {
-       opacity: 0.3;
-       width: 40%;
-       clear: both;
-       margin: 0px;
-   }
-
-    .intro .interest {
-       margin: 0 0 0px 0;
-       clear: both;
-       overflow: auto;
-   }
-
-    .intro .interest .img-container {
-       text-align: center;
-       width: 100%;
-       margin: 0 auto;
-   }
-
-    .intro .interest span {
-       font-weight: bold;
-       text-transform: uppercase;
-   }
-
-    .intro h4 {
-        font-size: 1.1em;
-        font-weight:bold;
-        color:#559be8;
-        margin:15px 0;
-        text-align:left;
-    }  
-
-    .intro ul {
-        padding-left: 7px;
-    }
-
-    .intro li {
-        font-size: 1em;
-        list-style: none;
-        clear: both;
-        overflow:auto;
-        display: block;
-        margin-bottom:10px;
-        margin-left: 5px;
-    }
-
-    .intro ul li img {
-        float: left; 
-        width:32px;
-        padding: 10px 0 0 0;
-        
-    }
-    
-    .intro ul li p {
-        display: block; 
-        text-align: left;
-    }
-
-
-   /* certificates */
-    .about .certificate-row {
-       margin-bottom: 20px;
-   }
-
-    .about .certificate-row img {
-        width: 100%;
-        border: 2px solid #b5b5b5;
-   }
-
-   
-   /* contacts */
-    .about .contact-row {
-       margin-bottom: 20px;
-       overflow: auto;
-   }
-
-    .about .contact-row a {
-       text-decoration: none;
-       display:compact;
-   }
-
-    .about .contact-row span {
-        font-size: 1.4em;
-        color:#424242;
-        margin:10px 0;
-        text-align:left;
-        vertical-align: middle;
-        display: inline-block;
-   }
-
-    .about .contact-row img {
-        width: 50px;
-        float: left;
-        margin-right: 15px;
-        opacity: 0.4;
-   }
-
-    .about .contact-row a:hover {
-        opacity: 0.5;
-   }
-
-
-    /* skills tree */
-    .skills ul li {
-        font-size: 1.4em;
-        font-weight:bold;
-        color:#424242;
-        margin: 0;
-        text-align:left;
-        list-style: none;
-        margin-bottom: 10px;
-        text-transform: capitalize;
-    }
-
-    .skills ul li ul li {
-        font-size: 0.8em;
-        font-weight:bold;
-        margin: 0;
-        text-align:left;
-    }
-
-    .skills ul li ul li ul li {
-        font-size: 0.8em;
-        font-weight:bold;
-        margin: 0;
-        text-align:left;
-    }
-
-    .skills ul li ul li ul li ul li {
-
-    }
-
-    .skills .marks {
-        clear: both;
-        overflow: auto;
-        width: 100%;
-    }
-
-    .skills .marks p {
-        font-size: 1em;
-        font-weight: bold;
-        display: block;
-        background: #b6ff00;
-        width: 35px;
-        height: 35px;
-        float: left;
-        margin-right: 10px;
-        text-align: center;
-        padding: 6px 0 0 0;
-        border-radius: 50px;
-        color: #ffffff;
-    }
-
-    .skills .marks p:first-child { background: #02bb00; }
-
-    .skills .marks p:nth-child(2) { background: #1a7d27; }
-
-    .skills .marks p:nth-child(3) { background: #559be8; }
-
-    .skills .marks p:nth-child(4) { background: #014b9d; }
-
-    .skills .marks p:nth-child(5) { background: #f85b00; }
-
-    .skills .marks p:nth-child(6) { background: #b10000; }
-
-    .skills .marks p:nth-child(7) { background: #adadad; }
-
-    .skills .a { color: #02bb00; }
-    .skills .b { color: #1a7d27; }
-    .skills .c { color: #559be8; }
-    .skills .d { color: #014b9d; }
-    .skills .e { color: #f85b00; }
-    .skills .f { color: #b10000; }
-    .skills .g { color: #adadad; }
-    
-
 
     /* small mobile end */
 }
@@ -572,11 +331,16 @@ h1, h2, h3, h4, h5, h6 {
     }
     .index nav {
         width: 100%;
-        padding: 15px;
+        padding: 0 10px;
         margin: 10px auto;
-        border-top: 1px solid #fff200;
+        
         /background: #f85b00;
         /box-sizing: padding-box;
+    }
+    .index .separator {
+        width: 100%;
+        border-top: 1px solid #fff200;
+        margin-bottom: 15px;
     }
     .index nav section {
         width: 100%;
@@ -591,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
     .achievements img {
         width: 35px;
         float: left;
-        margin-top: 10px;
+        margin-top: 5px;
     }
     .achievements ul {
         padding-left: 10px;
@@ -625,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
         background: #fffbad;
         /color: #b10000;
         /font-weight: bolder;
-        margin: 0 15px;
+        margin: 10px 15px;
         padding: 10px;
         border-left: 3px solid #f85b00;
         border-top-right-radius: 10px;
@@ -639,7 +403,7 @@ h1, h2, h3, h4, h5, h6 {
         color: #5c5c5c;
         text-align: justify;
         margin: 10px auto 0 auto;
-        padding: 0 15px;
+        padding: 0 10px;
         /background: #adadad;
     }
 
@@ -649,12 +413,13 @@ h1, h2, h3, h4, h5, h6 {
     h5 { font-size: 1.2em; } h6 { font-size:0.9em }
 
     p {
-        margin-top: 5px;
+        margin: 5px 0 15px 0;
         font-size:1.2em;
     }
 
     /* mobile end */
 }
+
 
 /* tablets and desktop*/
 @media only screen and (min-width: 850px) {
