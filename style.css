@@ -105,7 +105,7 @@ footer a img:hover {
     padding-left: 15px;
 }
 .skills ul li {
-        font-size: 1.4em;
+        font-size: 1.7em;
         font-weight:bold;
         color:#424242;
         margin: 0;
@@ -115,7 +115,7 @@ footer a img:hover {
         text-transform: capitalize;
     }
 .skills ul li ul li {
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight:bold;
     margin: 0;
     text-align:left;
@@ -425,104 +425,47 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (min-width: 850px) {
     /* index  */
     .index .ava {
-        width: 20%;
+        width: 25%;
         display: block;
         margin: 10px auto 0 auto;
     }
     .index .name {
-        font-size: 3.5em;
+        font-size: 4em;
         font-weight:bold;
         color:#424242;
         margin:15px 0;
         text-align:center;
     }
-
     .index nav {
         width: 800px;
-        margin: 0 auto;
-        padding: 15px;
-        margin-top: 10px;
+        padding: 0 10px;
+        margin: 10px auto;
+        
+        /background: #f85b00;
+        /box-sizing: padding-box;
+    }
+    .index .separator {
+        width: 100%;
         border-top: 1px solid #fff200;
+        margin-bottom: 15px;
     }
     .index nav section {
         width: 25%;
-        height:100%;
+        height: 100%;
         float: left;
         display:inline-block;
 		padding-right:10px;
         margin-bottom:10px;
     }
-    .index nav section ul {
-        margin:0;
-        list-style-type:none;
-        padding-left:5px;
-    }
-    .index nav ul li:first-child {
-        font-size: 1.2em;
-        color: #02bb00;
-        margin-bottom: 4px;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-    .index nav ul li {
-        margin-bottom:3px;
-    }
-    .index nav a {   
-        font-size: 1.2em;
-		text-transform: uppercase;
-        color: #4b4b4b;
-        text-decoration: none;
-        padding-left: 0px;
-    }
-    .index nav a:hover {
-        color:#ff0000;
-        transition: all 0.3s;
-        transition-timing-function:ease-in-out;
-    }
-
-    footer {
-        margin: 40px auto 20px auto;
-        text-align: center;
-    }
-    footer a img {
-        width: 70px;
-        height: auto;
-        opacity: 0.4;
-        
-    }
-    footer a img:hover {
-        height: auto;
-        opacity: 1;
-        transition: opacity 0.5s;
-        
-    }
-
-   /* about */
-    .certificates img {
-        width: 100%;
-        border: 2px solid #b5b5b5;
-        margin-bottom: 20px;
-   }
-    .achievements h4 {
-        color: #559be8;
-    }
-    .achievements li {
-        font-size: 1.0em;
-        list-style: none;
-        clear: both;
-        overflow:auto;
-        vertical-align: middle;
-        display: block;
-        margin-bottom:10px;
-    }
+    
+    /* about */
     .achievements img {
-        width: 70px;
+        width: 65px;
         float: left;
-        margin-top: 10px;
+        margin-top: 0px;
     }
-    .achievements ul li p {
-        display: block; 
-        vertical-align: middle;
+    .achievements ul {
+        padding-left: 10px;
     }
     .contacts p {
         font-size: 2em;
@@ -531,19 +474,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     /* skills tree */
-    .skills .marks {
-        clear: both;
-        overflow: auto;
-        width: 100%;
-    }
     .skills .marks p {
-        font-size: 1.5em;
+        font-size: 2.8em;
         margin: 0;
         font-weight: bold;
         display: block;
         background: #b6ff00;
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         float: left;
         margin-right: 10px;
         text-align: center;
@@ -551,133 +489,14 @@ h1, h2, h3, h4, h5, h6 {
         border-radius: 50px;
         color: #ffffff;
     }
-
-    .skills ul li {
-        font-size: 1.4em;
-        font-weight:bold;
-        color:#424242;
-        margin: 0;
-        text-align:left;
-        list-style: none;
-        margin-bottom: 10px;
-        text-transform: capitalize;
-    }
-    .skills ul li ul li {
-        font-size: 0.8em;
-        font-weight:bold;
-        margin: 0;
-        text-align:left;
-    }
-    .skills ul li ul li ul li {
-        font-size: 0.8em;
-        font-weight:bold;
-        margin: 0;
-        text-align:left;
-    }
-    .skills ul li ul li ul li ul li {
-
-    }
     
-    .skills .marks p:first-child { background: #02bb00; } .skills .marks p:nth-child(2) { background: #1a7d27; }
-    .skills .marks p:nth-child(3) { background: #559be8; }.skills .marks p:nth-child(4) { background: #014b9d; }
-    .skills .marks p:nth-child(5) { background: #f85b00; } .skills .marks p:nth-child(6) { background: #b10000; }
-    .skills .marks p:nth-child(7) { background: #adadad; }
-
-    .skills .a { color: #02bb00; } .skills .b { color: #1a7d27; } .skills .c { color: #559be8; } .skills .d { color: #014b9d; }
-    .skills .e { color: #f85b00; } .skills .f { color: #b10000; } .skills .g { color: #adadad; }
-   
-    /* leadership styles */
-    main {
-        width: 800px;
-        font-size: 1.0em;
-        color: #5c5c5c;
-        text-align: justify;
-        margin: 10px auto 10px auto;
-    }
-    
-    main nav {
-
-    }
-    main nav ul {
-        padding: 0;
-        margin: 0;
-    }
-    main nav li {
-        display: inline-block;
-        font-size: 1.2em;
-        color: #424242;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-decoration: none;
-    }
-    main nav li a {
-        color: #02bb00;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-decoration: none;
-    }
-    main nav li a:hover {
-        color: #559be8;
-        font-weight: bold;
-        transition: all 0.3s;
-        transition-timing-function: ease-in-out;
-    }
-
-    main .accent-1 {
-        font-weight: bolder;
-    }
-
-    main .accent-2 {
-        font-weight: bolder;
-    }
-
-    main section a {}
-    
-    .sub-index ul {
-        padding: 0;
-    }
-    .sub-index ul li {
-        list-style: none;
-        margin-bottom: 10px;
-    }
-    .sub-index ul li a {
-        font-size: 1.2em;
-		text-transform: capitalize;
-        color: #4b4b4b;
-        text-decoration: none;
-        clear: both;
-        display: inline-block;
-        margin-bottom: 5px;
-        padding-left: 10px;
-        border-bottom: 1px solid #ffffff;
-    }
-    .sub-index ul li a:hover {
-        color:#559be8;
-        border-bottom: 1px solid #fff200;
-        padding-left: 0px;
-        transition: all 0.3s;
-        transition-timing-function:ease-in-out;
-    }
-
-    main .details {
-        margin: 30px 0 10px 0;
-        font-size: 1.2em;
-        text-align: right;
-    }
-    main .details .author {
-        font-size: 1.3em;
-    }
-    main .details time {
-        font-size: 0.9em;
-        text-transform: capitalize;
-    }
-
+    /* articles formatting */
     .important {
         /border-bottom: 1px dashed #02bb00;
-        background: #fffbad;
+        background: #fffee3;
         /color: #b10000;
         /font-weight: bolder;
-        margin: 0 30px;
+        margin: 10px 15px;
         padding: 10px;
         border-left: 3px solid #f85b00;
         border-top-right-radius: 10px;
@@ -685,22 +504,26 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     /* General */
-    h1, h2, h3, h4, h5, h6 {
-        font-weight:bold;
-        color:#424242;
-        margin:15px 0;
-        text-align:center;
-        text-align: left;
+     main {
+        width: 800px;
+        font-size: 1em;
+        color: #5c5c5c;
+        text-align: justify;
+        margin: 10px auto 0 auto;
+        padding: 0 10px;
+        /background: #adadad;
     }
+
     h1 { font-size: 5em; border-bottom: 2px solid #fff200; }
-    h2 { font-size: 3em; border-bottom: 1px solid #fff200;}
-    h3 { font-size: 2.5em } h4 { font-size: 2em; }
-    h5 { font-size: 1.5em; } h6 { font-size: 1em }
+    h2 { font-size: 3.5em; border-bottom: 1px solid #fff200;}
+    h3 { font-size: 2.6em; border-bottom: 1px solid #fff200; } 
+    h4 { font-size: 2.0em; margin-bottom: 0px; }
+    h5 { font-size: 1.5em; } h6 { font-size:1.2em }
 
     p {
+        margin: 5px 0 15px 0;
         font-size:1.2em;
     }
-
     
 /* tablets end */    
 }
