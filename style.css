@@ -359,7 +359,7 @@ main details li a:hover {
         text-align:center;
     }
     .index nav {
-        width: 90%;
+        width: 94%;
         padding: 0 10px;
         margin: 10px auto;
         
@@ -424,7 +424,7 @@ main details li a:hover {
 
     /* General */
      main {
-        width: 90%;
+        width: 94%;
         font-size: 0.9em;
         color: #5c5c5c;
         text-align: justify;
@@ -433,7 +433,7 @@ main details li a:hover {
         /background: #adadad;
     }
 
-    h1 { font-size: 3em; border-bottom: 2px solid #fff200; }
+    h1 { font-size: 3em; border-bottom: 3px solid #fff200; }
     h2 { font-size: 2.5em; }
     h3 { font-size: 2em; border-bottom: 1px solid #fff200; } 
     h4 { font-size: 1.5em; margin-bottom: 0px; }
@@ -542,7 +542,7 @@ main details li a:hover {
         /background: #adadad;
     }
 
-    h1 { font-size: 5em; border-bottom: 2px solid #fff200; }
+    h1 { font-size: 5em; border-bottom: 3px solid #fff200; }
     h2 { font-size: 3.5em; border-bottom: 0px solid #fff200;}
     h3 { font-size: 2.6em; border-bottom: 1px solid #fff200; } 
     h4 { font-size: 2.0em; margin-bottom: 0px; }
