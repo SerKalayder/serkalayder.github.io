@@ -28,7 +28,7 @@ body
         padding-left:5px;
    }
 .index nav ul li:first-child {
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: #02bb00;
     margin-bottom: 4px;
     font-weight: bold;
@@ -39,14 +39,14 @@ body
 }
 .index nav a {   
     font-size: 1.1em;
-	text-transform: uppercase;
+	text-transform: lowercase;
     color: #4b4b4b;
     text-decoration: none;
     padding-left: 0px;
 }
 .index nav a:hover {
     color:#559be8;
-    border-bottom: 1px dashed #5c5c5c;
+    /border-bottom: 1px dashed #5c5c5c;
     transition: color 0.3s;
     transition-timing-function:ease-in-out;
 }
@@ -472,7 +472,7 @@ main details li a:hover {
     }
     .index .separator {
         width: 100%;
-        border-top: 1px dashed #5c5c5c;
+        border-top: 2px solid #fff200;
         margin-bottom: 15px;
     }
     .index nav section {
