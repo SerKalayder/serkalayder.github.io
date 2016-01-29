@@ -1,5 +1,4 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=cyrillic,latin);
-
+﻿
 * {
     box-sizing: border-box;
 }
@@ -473,7 +472,7 @@ main details li a:hover {
     }
     .index .separator {
         width: 100%;
-        border-top: 1px solid #fff200;
+        border-top: 1px dashed #5c5c5c;
         margin-bottom: 15px;
     }
     .index nav section {

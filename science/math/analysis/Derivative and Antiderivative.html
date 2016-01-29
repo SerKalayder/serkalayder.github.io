@@ -1,0 +1,301 @@
+<!DOCTYPE html> 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+    <meta charset="utf-8" /> 
+    <title>Derivative and Antiderivative - serkalayder</title> 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" type="text/css" href="http://serkalayder.github.io/service/stylesheets/stylesheet.css" media="screen"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" /> 
+    <link rel='shortcut icon' type='image/x-icon' href='http://serkalayder.github.io/service/favicon.ico' />
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> 
+    </script>
+</head> 
+<body> 
+<!-- HEADER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --> 
+<header onclick="window.location.href = 'http://serkalayder.github.io'"> 
+    <h1>serkalayder</h1> 
+    <!-- TITLE>>>>>>>>>>>>>>>>>>>> --> 
+    <h2>Derivative and Antiderivative </h2> 
+</header> 
+<!-- CONTENT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --> 
+<section class="main-content"> 
+    <h1>Derivative</h1> 
+    <table>
+    <tr>
+        <th> # </th>
+        <th> \( f(x) \) </th>
+        <th> \( f'(x) \) </th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>\( C \)</td>
+        <td>\( 0 \)</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>\( x \)</td>
+        <td>\( 1 \)</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>\( x^2 \)</td>
+        <td>\( 2x \)</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>\( x^n \)</td>
+        <td>\( nx^{n-1} \)</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>\( \sqrt{x} \)</td>
+        <td>\( \frac{1}{2\sqrt{x}} \)</td>
+    </tr> 
+    <tr>
+        <td>6</td>
+        <td>\( \sqrt[n]{x^k} = x^{\frac{k}{n}} \)</td>
+        <td>\( \frac{k}{n}x^{\frac{k}{n}-1} \)</td>
+    </tr> 
+    <tr>
+        <td>7</td>
+        <td>\( \frac{1}{x^k} = x^{-k}  \)</td>
+        <td>\( -kx^{-k-1} \)</td>
+    </tr> 
+    <tr>
+        <td>8</td>
+        <td>\( \sin{x} \)</td>
+        <td>\( \cos{x} \)</td>
+    </tr> 
+    <tr>
+        <td>9</td>
+        <td>\( \cos{x} \)</td>
+        <td>\( -\sin{x} \)</td>
+    </tr>    
+    <tr>
+        <td>10</td>
+        <td>\( \tan{x} \)</td>
+        <td>\( \frac{1}{\cos^2{x}} \)</td>
+    </tr>   
+    <tr>
+        <td>11</td>
+        <td>\( \cot{x} \)</td>
+        <td>\( -\frac{1}{\sin^2{x}} \)</td>
+    </tr>   
+    <tr>
+        <td>12</td>
+        <td>\( \arcsin{x} \)</td>
+        <td>\( \frac{1}{\sqrt{1-x^2}} \)</td>
+    </tr>   
+    <tr>
+        <td>13</td>
+        <td>\( \arccos{x} \)</td>
+        <td>\( -\frac{1}{\sqrt{1-x^2}} \)</td>
+    </tr>    
+    <tr>
+        <td>14</td>
+        <td>\( \arctan{x} \)</td>
+        <td>\( \frac{1}{1+x^2} \)</td>
+    </tr>  
+    <tr>
+        <td>15</td>
+        <td>\( \cot^{-1}{x} \)</td>
+        <td>\( -\frac{1}{1+x^2} \)</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>\( e^x \)</td>
+        <td>\( e^x \)</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>\( a^x \)</td>
+        <td>\( a^x\ln{a} \)</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>\( \ln{x} \)</td>
+        <td>\( \frac{1}{x} \)</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>\( \log_{a}{x} \)</td>
+        <td>\( \frac{1}{x\ln{a}} \)</td>
+    </tr>
+</table>
+
+<h5>Differentiation rules</h5>
+<table>
+    <tr>
+        <th> # </th>
+        <th> Rule </th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>\( (u \pm v)' = u' \pm v'  \)</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>\( (uv)' = u'v + uv' \)</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>\( (cu)' = cu' \)</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>\( (\frac{u}{v})' = \frac{u'v-uv'}{v^2} \)</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>\( (uvw)' = u'vw+uv'w+uvw' \)</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>\( (f(g(x)))' = f'(g(x)) \cdot g'(x)  \)</td>
+    </tr>
+</table>
+
+<h5>Tangent equation</h5>
+<p>\( y = y(x_{0}) + y'(x_{0})(x-x_{0}) \)</p>
+<!-- Antiderivative>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --> 
+<h1>Antiderivative</h1>
+<table>
+    <tr>
+        <th> # </th>
+        <th> \( f(x) \) </th>
+        <th> \( F(x) \) </th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>\( 1 \)</td>
+        <td>\( x \)</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>\( k \)</td>
+        <td>\( kx \)</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>\( x \)</td>
+        <td>\( \frac{x^2}{2} \)</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>\( x^n \)</td>
+        <td>\( \frac{x^{n+1}}{n+1} \)</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>\( \frac{1}{x} \)</td>
+        <td>\( \ln|x| \)</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>\( e^x \)</td>
+        <td>\( e^x \)</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>\( a^x \)</td>
+        <td>\( \frac{a^x}{\ln{a}} \)</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>\( \sin{x} \)</td>
+        <td>\( -\cos{x} \)</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>\( \cos{x} \)</td>
+        <td>\( \sin{x} \)</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>\( \frac{1}{\cos^2{x}} \)</td>
+        <td>\( \tan{x} \)</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>\( \frac{1}{\sin^2{x}} \)</td>
+        <td>\( -\cot{x} \)</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>\( \frac{1}{\sqrt{a^2-x^2}} \)</td>
+        <td>\( \arcsin{\frac{x}{a}} \)</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>\( \frac{1}{a^2+x^2} \)</td>
+        <td>\( \frac{1}{a} \arctan{\frac{x}{a}} \)</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>\( \frac{1}{a^2-x^2} \)</td>
+        <td>\( \frac{1}{2a} \ln{\frac{a+x}{a-x}} \)</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>\( \frac{1}{1+x^2} \)</td>
+        <td>\( \arctan{x} \)</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>\( \frac{1}{\sqrt{1-x^2}} \)</td>
+        <td>\( \arcsin{x} \)</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>\( \frac{1}{\sin{x}} \)</td>
+        <td>\( \ln{|\tan{\frac{x}{2}}|} \)</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>\( \frac{1}{\cos{x}} \)</td>
+        <td>\( \ln{|\tan(\frac{x}{2}+\frac{\pi}{4})|} \)</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>\( \tan{x} \)</td>
+        <td>\( -\ln{|\cos{x}|} \)</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>\( \cot{x} \)</td>
+        <td>\( \ln{|\sin{x}|} \)</td>
+    </tr>
+</table>
+<h5>Integration rules</h5>
+<table>
+    <tr>
+        <th> # </th>
+        <th> Rule </th>
+    </tr>
+    <tr>
+        <td> 1 </td>
+        <td>\( \int kf(x)\, \mathrm{d}x = k \int f(x)\, \mathrm{d}x \)</td>
+    </tr>
+    <tr>
+        <td> 2 </td>
+        <td> \( \int f(kx+b)\, \mathrm{d}x = \frac{1}{k}f(kx+b)+c \) </td>
+    </tr>
+    <tr>
+        <td> 3 </td>
+        <td> \( \int uv'\, \mathrm{d}x = uv - \int vu'\, \mathrm{d}x \) </td>
+    </tr>
+</table>
+<h5>Definite integral</h5>
+<p>\( \int_a^b f(x)\, \mathrm{d}x = F(b)-F(a) \)</p>
+
+</section> 
+<!-- FOOTER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --> 
+<footer> 
+    <div class="footer-line"></div> 
+    Pages by 
+        <a href="https://twitter.com/serkalayder">Sergiy Kalayda</a> 
+    using GitHub. The Cayman theme by 
+        <a href="https://twitter.com/jasonlong">Jason Long</a>. 
+</footer> 
+</body> 
+</html>
